@@ -1,4 +1,0 @@
-/home/ignacy/Pulpit/stm32_baremetal/build/CMakeFiles/edit_cache.dir
-/home/ignacy/Pulpit/stm32_baremetal/build/CMakeFiles/rebuild_cache.dir
-/home/ignacy/Pulpit/stm32_baremetal/build/CMakeFiles/Stm32_baremetal.elf.dir
-/home/ignacy/Pulpit/stm32_baremetal/build/CMakeFiles/startup_files.dir
