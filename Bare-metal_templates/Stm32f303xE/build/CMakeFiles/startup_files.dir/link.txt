@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar cr libstartup_files.a  CMakeFiles/startup_files.dir/src/startup_stm32f303xe.s.obj 
+/usr/bin/arm-none-eabi-ranlib libstartup_files.a 

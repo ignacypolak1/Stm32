@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Stm32_baremetal"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ignacy/Pulpit/stm32_baremetal/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ignacy/Pulpit/stm32_baremetal/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ignacy/Pulpit/stm32_baremetal/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Stm32_baremetal.elf">
+				<Option output="/home/ignacy/Pulpit/stm32_baremetal/build/Stm32_baremetal.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ignacy/Pulpit/stm32_baremetal/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTemplate1"/>
+					<Add option="-DSTM32F303xE"/>
+					<Add directory="/home/ignacy/Pulpit/stm32_baremetal/inc/CMSIS/Core"/>
+					<Add directory="/home/ignacy/Pulpit/stm32_baremetal/inc/ST"/>
+					<Add directory="/home/ignacy/Pulpit/stm32_baremetal/lib"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/6.3.1/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 Stm32_baremetal.elf"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Stm32_baremetal.elf/fast">
+				<Option output="/home/ignacy/Pulpit/stm32_baremetal/build/Stm32_baremetal.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ignacy/Pulpit/stm32_baremetal/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTemplate1"/>
+					<Add option="-DSTM32F303xE"/>
+					<Add directory="/home/ignacy/Pulpit/stm32_baremetal/inc/CMSIS/Core"/>
+					<Add directory="/home/ignacy/Pulpit/stm32_baremetal/inc/ST"/>
+					<Add directory="/home/ignacy/Pulpit/stm32_baremetal/lib"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/6.3.1/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 Stm32_baremetal.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="startup_files">
+				<Option output="/home/ignacy/Pulpit/stm32_baremetal/build/libstartup_files.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ignacy/Pulpit/stm32_baremetal/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTemplate1"/>
+					<Add option="-DSTM32F303xE"/>
+					<Add directory="/home/ignacy/Pulpit/stm32_baremetal/inc/CMSIS/Core"/>
+					<Add directory="/home/ignacy/Pulpit/stm32_baremetal/inc/ST"/>
+					<Add directory="/home/ignacy/Pulpit/stm32_baremetal/lib"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/6.3.1/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 startup_files"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="startup_files/fast">
+				<Option output="/home/ignacy/Pulpit/stm32_baremetal/build/libstartup_files.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ignacy/Pulpit/stm32_baremetal/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTemplate1"/>
+					<Add option="-DSTM32F303xE"/>
+					<Add directory="/home/ignacy/Pulpit/stm32_baremetal/inc/CMSIS/Core"/>
+					<Add directory="/home/ignacy/Pulpit/stm32_baremetal/inc/ST"/>
+					<Add directory="/home/ignacy/Pulpit/stm32_baremetal/lib"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/6.3.1/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 startup_files/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ignacy/Pulpit/stm32_baremetal/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ignacy/Pulpit/stm32_baremetal/src/STM32F303RETx_FLASH.ld">
+			<Option target="Stm32_baremetal.elf"/>
+		</Unit>
+		<Unit filename="/home/ignacy/Pulpit/stm32_baremetal/src/main.c">
+			<Option target="Stm32_baremetal.elf"/>
+		</Unit>
+		<Unit filename="/home/ignacy/Pulpit/stm32_baremetal/src/startup_stm32f303xe.s">
+			<Option target="startup_files"/>
+		</Unit>
+		<Unit filename="/home/ignacy/Pulpit/stm32_baremetal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ignacy/Pulpit/stm32_baremetal/toolchain.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
